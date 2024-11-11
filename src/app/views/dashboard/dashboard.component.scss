@@ -1,0 +1,87 @@
+.container {
+  background-image: url('https://i.ytimg.com/vi/O9_aGsNA7m8/maxresdefault.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0d0d0d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-register {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #f44336 !important;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-register:hover {
+  background-color: #e57373 !important;
+}
+
+.vehicle-table {
+  width: 100%;
+  margin-top: 40px;
+}
+
+mat-header-cell, mat-cell {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mat-mdc-header-row {
+  background-color: rgba(35, 35, 35, 0.48) !important;
+}
+
+mat-header-cell {
+  color: #ffffff;
+}
+
+/* Adicionando estilos à tabela */
+.mat-mdc-table {
+  --mat-table-row-item-outline-width: 1px;
+  table-layout: auto;
+  white-space: normal;
+  background-color: #42424257;
+}
+
+/* Botões dentro da tabela */
+mat-cell button {
+  margin-right: 10px;
+}
+
+.mat-mdc-raised-button.mat-primary {
+  background-color: #f44336 !important;
+  color: #ffffff !important;
+}
+
+.mat-mdc-raised-button.mat-primary:hover {
+  background-color: #e57373 !important;
+}
+
+
+.mat-mdc-button.edit-button:not(:disabled) {
+  color: #2dd232 !important;
+}
+
+.mat-mdc-button.edit-button:not(:disabled):hover {
+  color: #388E3C !important;
+}
