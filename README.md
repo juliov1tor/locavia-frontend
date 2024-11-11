@@ -1,27 +1,36 @@
-# LocaviaFrontend
+# Locavia Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Este projeto é um frontend desenvolvido para a empresa Info Sistemas como parte de uma avaliação técnica para uma oportunidade de emprego. Ele oferece uma interface para o usuário realizar operações de cadastro, edição, exclusão e visualização de veículos.
 
-## Development server
+## Autor
+- **Júlio César Vitor**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
+- **Angular**
+- **Angular Material** para componentes visuais
 
-## Code scaffolding
+## Pré-requisitos
+- **Node.js** e **npm** instalados
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+1. Clone o repositório:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+   git clone https://github.com/juliov1tor/locavia-frontend
+   cd locavia-frontend
+   ```
 
-## Running unit tests
+2. Instale as dependências:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+## Scripts
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Iniciar o servidor de desenvolvimento:** `npm start`
+- **Build de produção:** `npm run build`
+- **Assistir mudanças em desenvolvimento:** `npm run watch`
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
